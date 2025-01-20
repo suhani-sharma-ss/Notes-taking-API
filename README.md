@@ -16,13 +16,16 @@ This project is a simple Notes API built using Node.js, Express, and MongoDB. It
    cd <repository-folder>
 
 2. Install dependencies:
+    ```bash
    npm install
 
-3. Configure .env:
+4. Configure .env:
+    ```bash
    MONGODB_URI=<your-mongodb-connection-string>
    PORT=3000
 
-4. Start the server:
+6. Start the server:
+    ```bash
    node server.js
 
 ## Endpoints
