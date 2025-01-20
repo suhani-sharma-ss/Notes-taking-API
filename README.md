@@ -29,12 +29,11 @@ This project is a simple Notes API built using Node.js, Express, and MongoDB. It
    node server.js
 
 ## Endpoints
-```http
-- POST /notes ```- Create a note.
-- GET /notes?userId=<userId> - Get all notes for a user.
-- GET /notes/:id - Get a specific note by ID.
-- PUT /notes/:id - Update a note.
-- DELETE /notes/:id - Delete a note.
+- `POST /notes` - Create a note.
+- `GET /notes?userId=<userId>` - Get all notes for a user.
+- `GET /notes/:id` - Get a specific note by ID.
+- `PUT /notes/:id` - Update a note.
+- `DELETE /notes/:id` - Delete a note.
 
 ## Testing
 Use Postman or cURL to test the API.
