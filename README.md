@@ -29,7 +29,8 @@ This project is a simple Notes API built using Node.js, Express, and MongoDB. It
    node server.js
 
 ## Endpoints
-- POST /notes - Create a note.
+```http
+- POST /notes ```- Create a note.
 - GET /notes?userId=<userId> - Get all notes for a user.
 - GET /notes/:id - Get a specific note by ID.
 - PUT /notes/:id - Update a note.
